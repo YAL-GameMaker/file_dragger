@@ -1,0 +1,75 @@
+{
+  "optionsFile": "options.json",
+  "options": [],
+  "exportToGame": true,
+  "supportedTargets": 113497714299118,
+  "extensionVersion": "1.0.0",
+  "packageId": "",
+  "productId": "",
+  "author": "",
+  "date": "2019-12-12T01:34:29",
+  "license": "Proprietary",
+  "description": "",
+  "helpfile": "",
+  "iosProps": true,
+  "tvosProps": false,
+  "androidProps": true,
+  "installdir": "",
+  "files": [
+    {"filename":"file_dragger.dll","origname":"extensions\\file_dragger.dll","init":"","final":"","kind":1,"uncompress":false,"functions":[
+        {"externalName":"file_drag_drop_raw_0","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"resourceVersion":"1.0","name":"file_drag_drop_raw_0","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"file_drag_drop_raw_1","kind":11,"help":"","hidden":true,"returnType":2,"argCount":1,"args":[
+            1,
+          ],"resourceVersion":"1.0","name":"file_drag_drop_raw_1","tags":[],"resourceType":"GMExtensionFunction",},
+      ],"constants":[],"ProxyFiles":[
+        {"name":"file_dragger_x64.dll","tags":[],"resourceVersion":"1.0","resourceType":"GMProxyFile","TargetMask":6,},
+      ],"copyToTargets":9223372036854775807,"order":[
+        {"name":"file_drag_drop_raw_0","path":"extensions/file_dragger/file_dragger.yy",},
+        {"name":"file_drag_drop_raw_1","path":"extensions/file_dragger/file_dragger.yy",},
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+    {"filename":"file_dragger.gml","origname":"extensions\\gml.gml","init":"","final":"","kind":2,"uncompress":false,"functions":[
+        {"externalName":"file_drag_drop","kind":2,"help":"file_drag_drop(path, ...paths)->","hidden":false,"returnType":2,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"file_drag_drop","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"file_drag_drop_array","kind":2,"help":"file_drag_drop_array(path_array)->","hidden":false,"returnType":2,"argCount":1,"args":[
+            2,
+          ],"resourceVersion":"1.0","name":"file_drag_drop_array","tags":[],"resourceType":"GMExtensionFunction",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":9223372036854775807,"order":[
+        {"name":"file_drag_drop","path":"extensions/file_dragger/file_dragger.yy",},
+        {"name":"file_drag_drop_array","path":"extensions/file_dragger/file_dragger.yy",},
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+    {"filename":"autogen.gml","origname":"extensions\\autogen.gml","init":"","final":"","kind":2,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"order":[
+        
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+  ],
+  "classname": "",
+  "tvosclassname": "",
+  "tvosdelegatename": "",
+  "iosdelegatename": "",
+  "androidclassname": "",
+  "sourcedir": "",
+  "androidsourcedir": "",
+  "macsourcedir": "",
+  "maccompilerflags": "",
+  "tvosmaccompilerflags": "",
+  "maclinkerflags": "",
+  "tvosmaclinkerflags": "",
+  "androidcodeinjection": "",
+  "ioscodeinjection": "",
+  "tvoscodeinjection": "",
+  "iosSystemFrameworkEntries": [],
+  "tvosSystemFrameworkEntries": [],
+  "iosThirdPartyFrameworkEntries": [],
+  "tvosThirdPartyFrameworkEntries": [],
+  "IncludedResources": [],
+  "androidPermissions": [],
+  "copyToTargets": 113497714299118,
+  "parent": {
+    "name": "Extensions",
+    "path": "folders/Extensions.yy",
+  },
+  "resourceVersion": "1.2",
+  "name": "file_dragger",
+  "tags": [],
+  "resourceType": "GMExtension",
+}

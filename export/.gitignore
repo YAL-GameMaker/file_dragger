@@ -1,0 +1,8 @@
+file_dragger-for-GMS1/*
+
+file_dragger-for-GMS2/*
+!file_dragger-for-GMS2/assetpackage.yy
+
+file_dragger-for-GMS2.3+/*
+!file_dragger-for-GMS2.3+/file_dragger_23.yyp
+!file_dragger-for-GMS2.3+/metadata.json
